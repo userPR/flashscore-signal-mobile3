@@ -1,0 +1,8 @@
+v0.3.0
+
+ANR mimari düzeltmesi:
+- MonitorService android:process=":monitor"
+- WebView.setDataDirectorySuffix("monitor") Android P+
+- StateStore AtomicFile cross-process state
+- Async state file writer
+- MainActivity dashboard ayrı process'te kalır
